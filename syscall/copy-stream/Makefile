@@ -1,4 +1,4 @@
-CC=gcc -std=c11 -g -no-pie -nostdlib
+CC=gcc -fno-stack-protector -std=c11 -g -no-pie -nostdlib
 
 all: solution
 
